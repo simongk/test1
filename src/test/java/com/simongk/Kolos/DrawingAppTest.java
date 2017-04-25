@@ -37,6 +37,14 @@ public class DrawingAppTest {
         Assert.assertEquals(12,result);
     }
 
+    @Test
+    public void shouldDivideTwoNumbers(){
+        int a=10; int b=5;
 
+        int result = drawingApp.divide(a,b);
+
+        Assert.assertEquals(2, result);
+
+    }
 
 }
